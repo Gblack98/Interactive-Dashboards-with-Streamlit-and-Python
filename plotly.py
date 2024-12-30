@@ -19,7 +19,7 @@ st.title("Sentiment Analysis of Tweets 🐦 about US Airlines")
 st.sidebar.title("Sentiment Analysis of Tweets about US Airlines")
 st.sidebar.markdown("This application is a Streamlit dashboard to analyze the sentiment of Tweets 🐦")
 
-data_url = "/home/gblack98/us arilines dataset twitter/Tweets.csv"
+data_url = "Tweets.csv"
 
 # Dictionnaire pour les coordonnées de localisation
 location_coords = {
