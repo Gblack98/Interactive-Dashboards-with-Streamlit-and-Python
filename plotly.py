@@ -128,5 +128,4 @@ if not st.sidebar.checkbox('Close', True, key='3'):
     plt.imshow(wordcloud)
     plt.xticks([])
     plt.yticks([])
-    st.set_option('deprecation.showPyplotGlobalUse', False)
     st.pyplot()
